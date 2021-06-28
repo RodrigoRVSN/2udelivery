@@ -1,75 +1,45 @@
 <section class="home">
-  <img src="../../assets/parceiroHome.svg" />
+  <img src="../../assets/register.svg" />
 
   <main>
-    <h1>Faça seu cadastro e comece a fazer entregas!</h1>
+    <h1>Cadastre sua loja!</h1>
     <form>
       <div class="col">
         <h3>Dados Pessoais</h3>
         <input required class="field" type="name" placeholder="Nome" />
         <input required class="field" type="name" placeholder="Sobrenome" />
         <input required class="field" type="email" placeholder="Email" />
-        <input required class="field" type="password" placeholder="Senha" />
-        <input
-          required
-          class="field"
-          type="password"
-          placeholder="Confirmar Senha"
-        />
-        <input required class="field" type="tel" placeholder="Celular" />
-        <input required class="field" type="number" placeholder="RG" />
         <input required class="field" type="number" placeholder="CPF" />
+        <input required class="field" type="number" placeholder="RG" />
+
+        <h3>Dados do Estabelecimento</h3>
         <input required class="field" type="number" placeholder="CNPJ" />
         <input
           required
           class="field"
-          type="city"
-          placeholder="Cidade de Atuação"
+          type="name"
+          placeholder="Nome do responsável"
         />
-        <h3>Dados Bancários</h3>
-        <input required class="field" type="number" placeholder="Banco" />
-        <input required class="field" type="name" placeholder="Tipo de Conta" />
-        <input required class="field" type="number" placeholder="Agência" />
-        <input required class="field" type="number" placeholder="Conta" />
-        <input required class="field" type="name" placeholder="Nome" />
-        <input required class="field" type="number" placeholder="CPF" />
-        <h3>Dados do Veículo</h3>
+        <input required class="field" type="name" placeholder="State" />
+        <input required class="field" type="city" placeholder="Cidade" />
+        <input required class="field" type="email" placeholder="Email" />
+        <input required class="field" type="tel" placeholder="Telefone" />
         <input
           required
           class="field"
           type="name"
-          placeholder="Tipo de veículo"
+          placeholder="Ramo de atuação"
         />
-        <input
-          required
-          class="field"
-          type="name"
-          placeholder="Cor do veículo"
-        />
-        <input
-          required
-          class="field"
-          type="name"
-          placeholder="Placa do veículo"
-        />
-        <input
-          required
-          class="field"
-          type="name"
-          placeholder="Foto da sua habilitação"
-        />
-        <input
-          required
-          class="field"
-          type="name"
-          placeholder="Foto dos documentos do veículo"
-        />
-        <input
-          required
-          class="field"
-          type="name"
-          placeholder="Sua foto com a CNH"
-        />
+        <select name="motoboy" class="field" placeholder="a">
+          <option value="">Tem motoboy próprio?</option>
+          <option value="yes">Sim</option>
+          <option value="no">Não</option>
+        </select>
+        <select name="delivery" class="field" placeholder="a">
+          <option value="">Atua com outro delivery?</option>
+          <option value="yes">Sim</option>
+          <option value="no">Não</option>
+        </select>
         <div class="col">
           <input
             required
