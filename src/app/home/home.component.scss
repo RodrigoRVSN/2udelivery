@@ -122,26 +122,3 @@ main {
     }
   }
 }
-
-.footer-bg {
-  background-image: url("../../assets/Footer.png");
-  background-size: cover;
-  background-position: center;
-  bottom: 0;
-  position: block;
-  height: 100%;
-  padding: 2rem;
-  text-align: center;
-  a {
-    text-decoration: none;
-    color: #161414;
-  }
-  .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  @media (max-width: 735px) {
-    flex-direction: colun;
-  }
-}
