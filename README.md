@@ -1,4 +1,16 @@
-# Twoudelivery
+#### Site disponível em: https://2udelivery-rodrigorvsn.vercel.app/
+
+# 🛠 Technologies (Tecnologias)
+
+- Angular
+- HTML, CSS
+
+# 📚 O que aprendi 😎
+
+- Iniciar um projeto em Angular
+- Criar componentes e rotas com Angular
+
+# Dependências
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
