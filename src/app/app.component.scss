@@ -1,0 +1,27 @@
+
+.navbar{
+  background-color: #161414;
+  padding: 1.5rem 10vw;
+  ul{
+    margin-left: auto;
+    a{
+      padding: 0 1rem;
+    }
+    .nav-link:not(.active), li{
+      color: #9E9E9E;
+      :hover{
+        color: #EBD700;
+      }
+    }
+  }
+
+  .navbar-brand, .active {
+    color: #EBD700;
+  }
+
+  button{
+    background-color: #9e9e9e;
+  }
+
+}
+

@@ -1,0 +1,147 @@
+.main-bg {
+  background-image: url("../../assets/Arte1_Home.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.homecontent {
+  height: 90%;
+  padding: 6.5rem 10rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+
+  p {
+    margin-top: 2rem;
+    text-align: left;
+  }
+
+  @media (max-width: 1135px) {
+    padding: 0 2rem;
+    flex-direction: column;
+    img {
+      width: 10rem;
+    }
+  }
+}
+
+main {
+  background-image: url("../../assets/Squaresv2_2-1.png"),
+    url("../../assets/Squaresv2_1-1.png");
+  background-position: 85vw 50%, -35vw 50%;
+  background-repeat: no-repeat, no-repeat;
+  padding: 2rem;
+  text-align: center;
+  padding-bottom: 40vh;
+
+  .circle-area {
+    display: flex;
+    @media (max-width: 930px) {
+      flex-direction: column;
+    }
+    .col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .circle {
+      width: 16rem;
+      height: 16rem;
+      background: #fff;
+      margin: 1rem;
+      border-radius: 50%;
+    }
+  }
+
+  h2 {
+    padding: 5vh 5vw;
+  }
+
+  .card-left {
+    background: #161414;
+    border-radius: 1rem;
+    margin: 3rem;
+    width: 50%;
+    display: block;
+    margin: 3rem auto;
+    @media (max-width: 1150px) {
+      width: 100%;
+    }
+    .card-body {
+      display: flex;
+      text-align: left;
+
+      img {
+        height: 8rem;
+        width: 8rem;
+        margin-right: 4rem;
+      }
+      h5 {
+        color: #ebd700;
+      }
+      p {
+        color: #d4d4d4;
+      }
+      @media (max-width: 550px) {
+        flex-direction: column;
+      }
+    }
+  }
+  .card-right {
+    background: #161414;
+    border-radius: 1rem;
+    margin: 3rem;
+    width: 50%;
+    display: block;
+    margin: 3rem auto;
+    justify-content: center;
+    @media (max-width: 1150px) {
+      width: 100%;
+    }
+    .card-body {
+      display: flex;
+      text-align: right;
+      img {
+        height: 8rem;
+        width: 8rem;
+        margin-left: 4rem;
+      }
+      h5 {
+        color: #ebd700;
+      }
+      p {
+        color: #d4d4d4;
+      }
+      @media (max-width: 550px) {
+        flex-direction: column;
+        img {
+          margin-left: 0 !important;
+        }
+      }
+    }
+  }
+}
+
+.footer-bg {
+  background-image: url("../../assets/Footer.png");
+  background-size: cover;
+  background-position: center;
+  bottom: 0;
+  position: block;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #161414;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media (max-width: 735px) {
+    flex-direction: colun;
+  }
+}
