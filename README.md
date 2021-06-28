@@ -1,14 +1,22 @@
+![image](https://user-images.githubusercontent.com/75763403/123675088-b73d6180-d818-11eb-90f0-5165f129a398.png)
+
 #### Site disponível em: https://2udelivery-rodrigorvsn.vercel.app/
+
+---
 
 # 🛠 Technologies (Tecnologias)
 
 - Angular
 - HTML, CSS
 
+---
+
 # 📚 O que aprendi 😎
 
 - Iniciar um projeto em Angular
 - Criar componentes e rotas com Angular
+
+---
 
 # Dependências
 
